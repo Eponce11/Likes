@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.whole-page {
+    width: 600px;
+    height: 450px;
+    background-color: blanchedalmond;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin-left: 15px;
+}
+
+.lower-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left-col {
+    height: 100%;
+    flex: 1;
+    background-color: blanchedalmond;
+}
+
+.left-col-main {
+    width: 96%;
+    height: 210px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.left-col-main img {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0px 20px 0px;
+}
+
+.left-col-main h3 {
+    margin-bottom: 20px;
+}
+
+
+
+.right-col {
+    height: 100%;
+    flex: 3;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-first-box, .right-second-box, .right-third-box{
+    width: 90%;
+    height: 120px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    margin: 0px 0px 15px 9%;
+}
+
+.right-first-top, .right-second-top, .right-third-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 0px 10px;
+}
+
+.right-first-top h2, .right-second-top h2, .right-third-top h2 {
+    width: 140px;
+}
+
+.right-first-top button, .right-second-top button, .right-third-top button {
+    width: 70px;
+    height: 30px;
+    border-color: black;
+    background-color: darkgoldenrod;
+}
+
+.right-first-bottom, .right-second-bottom, .right-third-bottom {
+    margin: 20px 10px 0px 10px;
+}
+
+.right-third-counter, .right-second-counter, .right-first-counter {
+    display: flex;
+}
